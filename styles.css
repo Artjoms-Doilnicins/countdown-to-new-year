@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+:root {
+	--color: rgba(183, 29, 43, 0.7);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.year {
+	font-size: 80px;
+	justify-content: center;
+	background-color: #122a38aa;
+}
+
+.stats {
+	display: flex;
+	gap: 50px;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+	background-color: var(--color);
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+	padding: 10px 0;
+}
+
+.stats span {
+	font-size: 50px;
+}
