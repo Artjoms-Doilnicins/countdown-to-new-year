@@ -1,5 +1,7 @@
 # Countdown to New Year 2025
 
+[https://artjoms-doilnicins.github.io/countdown-to-new-year/](https://artjoms-doilnicins.github.io/countdown-to-new-year/)
+
 A simple countdown timer that dynamically updates the time remaining until New Year 2025. It calculates and displays the number of days, hours, minutes, and seconds left in real-time.
 
 ## Features
