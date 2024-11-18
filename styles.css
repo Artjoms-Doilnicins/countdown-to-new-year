@@ -32,6 +32,7 @@
 
 .stats {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 50px;
 	text-align: center;
 	width: 100%;
@@ -39,6 +40,17 @@
 	background-color: var(--color);
 	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
 	padding: 10px 0;
+
+	@media (max-width: 499px) {
+		background-color: transparent;
+	}
+}
+
+.stats div {
+	@media (max-width: 499px) {
+		background-color: var(--color);
+		width: 100%;
+	}
 }
 
 .stats span {
