@@ -2,9 +2,11 @@ const daysEl = document.querySelector('.days-number');
 const hoursEl = document.querySelector('.hours-number');
 const minutesEl = document.querySelector('.minutes-number');
 const secondsEl = document.querySelector('.seconds-number');
+const yearEl = document.querySelector('.year');
 
 const closestNewYear = new Date().getFullYear() + 1;
 document.title = `Countdown to New Year ${closestNewYear}`;
+yearEl.textContent = closestNewYear;
 
 const updateCountdown = () => {
     const getNewYearTime = new Date(
